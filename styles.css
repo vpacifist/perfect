@@ -432,6 +432,48 @@ textarea {
  * * * * * * * * * *
  */
 
+div[class*="col"] {
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+.col12 { width: 100%; }
+.col11 { width: 91.66666667%; }
+.col10 { width: 83.33333333%; }
+.col9 { width: 75%; }
+.col8 { width: 66.66666667%; }
+.col7 { width: 58.33333333%; }
+.col6 { width: 50%; }
+.col5 { width: 41.66666667%; }
+.col4 { width: 33.33333333%; }
+.col3 { width: 25%; }
+.col2 { width: 16.66666667%; }
+.col1 { width: 8.33333333%; }
+.col-push-3 {
+  left: 25%;
+}
+.row {
+  margin-left: -10px;
+}
+.row:after {
+  clear: both;
+}
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-right: 30px;
+  font-size: 0;
+}
 .aside {
   font-size: 14px;
   width: 16%;
