@@ -605,4 +605,8 @@ h1 {
   text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.3);
 }
 
+/* main-description */
+.main-description {
+  padding-top: 100px;
+}
 }
