@@ -451,15 +451,13 @@ textarea {
 
 /* User styles */
 
-
-div[class*="col"] {
+/* Grid */
+[class*="col"] {
+  display: block;
   float: left;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
   padding-left: 10px;
   padding-right: 10px;
-  position: relative;
+  margin-bottom: 20px;
 }
 .col12 { width: 100%; }
 .col11 { width: 91.66666667%; }
@@ -476,8 +474,13 @@ div[class*="col"] {
 .col-push-3 {
   left: 25%;
 }
+.col-push-1 {
+  left: 8.33333333%;
+}
 .row {
   margin-left: -10px;
+  margin-right: -10px;
+  padding-right: 30px;
 }
 .row:after {
   clear: both;
