@@ -609,4 +609,40 @@ h1 {
 .main-description {
   padding-top: 100px;
 }
+.main-serv, .main-pf {
+  padding-top: 80px;
+}
+
+/* main-serv */
+.main-serv__link {
+  position: relative;
+}
+.main-serv__more {
+  display: none;
+  z-index: 30;
+}
+.main-serv__preview {
+  position: relative;
+}
+.main-serv__preview p {
+  position: absolute;
+  z-index: 20;
+  text-align: center;
+  width: 240px;
+  height: 100px;
+  background: #fff;
+  margin: auto;
+  bottom: 40px; left: 0; right: 0;
+  text-transform: uppercase;
+  line-height: 100px;
+}
+.main-serv__more {
+  position: absolute;
+  top: 0; left: 0;
+  width: 280px;
+  height: 450px;
+}
+.main-serv__more:hover {
+  display: block;
+}
 }
