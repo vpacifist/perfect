@@ -550,8 +550,11 @@ a:hover {
   padding-right: 40px;
 }
 .main {
+  max-width: 1220px;
+  margin-left: 220px;
   font-size: 14px;
-  width: 84%;
+}
+
 /* Aside */
 .aside-nav ul {
   padding: 0;
