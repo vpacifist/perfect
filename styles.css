@@ -506,13 +506,35 @@ div[class*="col"] {
   font-size: 0;
 }
 .aside {
-  font-size: 14px;
-  width: 16%;
-  display: inline-block;
-  vertical-align: top;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 220px;
+  height: 278px;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 40px;
 }
 .main {
   font-size: 14px;
   width: 84%;
+/* Aside */
+.aside-nav ul {
+  padding: 0;
+  margin-bottom: 30px;
+}
+.aside-nav li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+.callback {
   display: inline-block;
+  text-align: center;
+  border: 1px solid #000;
+  width: 150px;
+  line-height: 40px;
+}
 }
